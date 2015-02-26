@@ -8,7 +8,7 @@ C 49500 44500 1 0 0 capacitor-1.sym
 T 49700 45200 5 10 0 0 0 0 1
 device=CAPACITOR
 T 49600 44800 5 10 1 1 0 0 1
-refdes=C4
+refdes=C2
 T 49700 45400 5 10 0 1 0 0 1
 symversion=0.1
 T 50000 44400 5 10 0 1 0 0 1
@@ -57,7 +57,7 @@ C 47200 44000 1 90 0 capacitor-1.sym
 T 46500 44200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 46900 44100 5 10 1 1 90 0 1
-refdes=C3
+refdes=C1
 T 46300 44200 5 10 0 1 90 0 1
 symversion=0.1
 T 47200 44000 5 10 0 1 0 0 1
@@ -149,7 +149,7 @@ C 52000 43500 1 90 0 capacitor-1.sym
 T 51300 43700 5 10 0 0 90 0 1
 device=CAPACITOR
 T 51600 43800 5 10 1 1 180 0 1
-refdes=C5
+refdes=C3
 T 51100 43700 5 10 0 1 90 0 1
 symversion=0.1
 T 52000 43500 5 10 0 1 0 0 1
@@ -310,11 +310,13 @@ C 45000 42900 1 0 0 capacitor-1.sym
 T 45200 43600 5 10 0 0 0 0 1
 device=CAPACITOR
 T 45600 43200 5 10 1 1 0 0 1
-refdes=C1
+refdes=C4
 T 45200 43800 5 10 0 0 0 0 1
 symversion=0.1
 T 45000 42900 5 10 0 1 0 0 1
 value=30p
+T 45000 42900 5 10 0 1 0 0 1
+footprint=CK05_type_Capacitor
 }
 C 42900 42400 1 270 0 resistor-variable-1.sym
 {
@@ -336,11 +338,13 @@ C 43700 41000 1 90 0 capacitor-1.sym
 T 43000 41200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 43600 41200 5 10 1 1 0 0 1
-refdes=C2
+refdes=C5
 T 42800 41200 5 10 0 0 90 0 1
 symversion=0.1
 T 43700 41000 5 10 0 1 0 0 1
 value=10n
+T 43700 41000 5 10 0 1 0 0 1
+footprint=CK05_type_Capacitor
 }
 N 43000 41000 43000 41500 4
 N 43500 41000 43000 41000 4
