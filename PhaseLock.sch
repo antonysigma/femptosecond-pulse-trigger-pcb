@@ -160,7 +160,7 @@ footprint=CK05_type_Capacitor
 T 46300 41400 9 16 1 0 0 0 1
 Phase-locked 10MHz Trigger
 T 46400 41100 9 12 1 0 0 0 1
-Freq range: 9MHz ~ 21MHz
+Freq range: 10MHz ~ 15MHz
 C 45300 42000 1 0 0 output-2.sym
 {
 T 46200 42200 5 10 0 0 0 0 1
@@ -418,3 +418,7 @@ footprint=CK05_type_Capacitor
 }
 C 44900 40400 1 0 1 gnd-1.sym
 C 44600 41600 1 0 0 vcc-1.sym
+T 51000 40400 9 12 1 0 0 3 1
+Antony
+T 51000 40700 9 12 1 0 0 3 1
+26 Feb 2015
