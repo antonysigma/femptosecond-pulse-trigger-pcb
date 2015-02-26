@@ -1,6 +1,7 @@
 [labels]
     LTC1046
     refdes=U?
+!   footprint=SO8
      
 [left]
     1 BOOST
