@@ -8,7 +8,7 @@ C 49500 44500 1 0 0 capacitor-1.sym
 T 49700 45200 5 10 0 0 0 0 1
 device=CAPACITOR
 T 49600 44800 5 10 1 1 0 0 1
-refdes=C2
+refdes=C1
 T 49700 45400 5 10 0 1 0 0 1
 symversion=0.1
 T 50000 44400 5 10 0 1 0 0 1
@@ -50,14 +50,14 @@ refdes=R4
 T 47100 44900 5 10 0 1 0 0 1
 footprint=R400
 T 47100 44900 5 10 0 1 0 0 1
-value=330R
+value=270R
 }
 C 47200 44000 1 90 0 capacitor-1.sym
 {
 T 46500 44200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 46900 44100 5 10 1 1 90 0 1
-refdes=C1
+refdes=C2
 T 46300 44200 5 10 0 1 90 0 1
 symversion=0.1
 T 47200 44000 5 10 0 1 0 0 1
@@ -161,20 +161,6 @@ T 46300 41400 9 16 1 0 0 0 1
 Phase-locked 10MHz Trigger
 T 46400 41100 9 12 1 0 0 0 1
 Freq range: 9MHz ~ 21MHz
-C 49900 43000 1 90 0 resistor-1.sym
-{
-T 49500 43300 5 10 0 0 90 0 1
-device=RESISTOR
-T 50100 43400 5 10 1 1 90 0 1
-refdes=R7
-T 49900 43100 5 10 0 1 0 0 1
-value=3k
-T 49900 43000 5 10 0 1 0 0 1
-footprint=R400
-}
-C 49700 42700 1 0 0 gnd-1.sym
-N 49500 44400 49800 44400 4
-N 49800 44400 49800 43900 4
 C 45300 42000 1 0 0 output-2.sym
 {
 T 46200 42200 5 10 0 0 0 0 1
@@ -221,22 +207,22 @@ C 50800 44400 1 90 0 resistor-1.sym
 T 50400 44700 5 10 0 0 90 0 1
 device=RESISTOR
 T 50500 44300 5 10 1 1 90 0 1
-refdes=R1
+refdes=R2
 T 50800 44400 5 10 0 1 0 0 1
 footprint=R400
 T 50800 44400 5 10 0 1 0 0 1
-value=330R
+value=3k
 }
 C 51300 44400 1 90 0 resistor-1.sym
 {
 T 50900 44700 5 10 0 0 90 0 1
 device=RESISTOR
 T 51000 44300 5 10 1 1 90 0 1
-refdes=R2
+refdes=R1
 T 51300 44400 5 10 0 1 0 0 1
 footprint=R400
 T 51300 44400 5 10 0 1 0 0 1
-value=330R
+value=1.8k
 }
 C 44000 42300 1 0 0 comparator_LT1016.sym
 {
@@ -417,3 +403,18 @@ N 45300 44900 45600 44900 4
 N 42600 46800 42600 47200 4
 C 42100 44600 1 0 0 gnd-1.sym
 N 42400 44900 42200 44900 4
+C 45000 40700 1 90 0 capacitor-1.sym
+{
+T 44300 40900 5 10 0 0 90 0 1
+device=CAPACITOR
+T 44600 41000 5 10 1 1 180 0 1
+refdes=C9
+T 44100 40900 5 10 0 1 90 0 1
+symversion=0.1
+T 45000 40700 5 10 0 1 0 0 1
+value=10n
+T 45000 40700 5 10 0 1 0 0 1
+footprint=CK05_type_Capacitor
+}
+C 44900 40400 1 0 1 gnd-1.sym
+C 44600 41600 1 0 0 vcc-1.sym
