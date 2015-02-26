@@ -1,0 +1,3 @@
+schematics PhaseLock.sch
+output-name PhaseLock
+elements-dir footprint
