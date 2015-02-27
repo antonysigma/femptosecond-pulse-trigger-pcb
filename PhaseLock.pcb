@@ -915,7 +915,7 @@ Element["" "CONNECTOR-1-2" "B1" "unknown" 650.00mil 350.00mil 210.00mil -50.00mi
 
 	)
 
-Element["" "R400" "R5" "100R" 2050.00mil 1550.00mil 1.4600mm -125.00mil 0 100 ""]
+Element["" "R400" "R5" "100R" 1950.00mil 1550.00mil 1.4600mm -125.00mil 0 100 ""]
 (
 	Pin[200.00mil 0.0000 80.00mil 20.00mil 86.00mil 25.00mil "1" "1" "edge2"]
 	Pin[-200.00mil 0.0000 80.00mil 20.00mil 86.00mil 25.00mil "2" "2" "edge2"]
@@ -1099,7 +1099,7 @@ Element["" "DIP16_op" "U1" "74HC4046" 1850.00mil 850.00mil -50.00mil 500.00mil 2
 
 	)
 
-Element["" "LED3" "SYNC" "GREEN" 2200.00mil 1300.00mil -100.00mil -180.00mil 0 100 ""]
+Element["" "LED3" "SYNC" "GREEN" 2150.00mil 1400.00mil -75.00mil -155.00mil 0 100 ""]
 (
 	Pin[50.00mil 0.0000 65.00mil 30.00mil 71.00mil 43.00mil "A" "1" "square,edge2"]
 	Pin[-50.00mil 0.0000 65.00mil 30.00mil 71.00mil 43.00mil "K" "2" "edge2,thermal(0X,1X)"]
@@ -1207,6 +1207,33 @@ Element["" "SO8" "U3" "LTC1046" 797.50mil 1525.00mil -20.00mil -60.00mil 0 100 "
 	ElementArc [0.0000 -95.00mil 25.00mil 25.00mil 0 180 10.00mil]
 
 	)
+
+Element["selected" "R400" "R7" "5k1" 2300.00mil 1450.00mil 25.00mil -25.00mil 3 100 "selected"]
+(
+	Pin[0.0000 -200.00mil 80.00mil 20.00mil 86.00mil 25.00mil "1" "1" "selected"]
+	Pin[0.0000 200.00mil 80.00mil 20.00mil 86.00mil 25.00mil "2" "2" "selected,thermal(0X,1X)"]
+	ElementLine [50.00mil -125.00mil 50.00mil 125.00mil 15.00mil]
+	ElementLine [-50.00mil 125.00mil 50.00mil 125.00mil 15.00mil]
+	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 15.00mil]
+	ElementLine [-50.00mil -125.00mil 50.00mil -125.00mil 15.00mil]
+	ElementLine [0.0000 -200.00mil 0.0000 -125.00mil 15.00mil]
+	ElementLine [0.0000 125.00mil 0.0000 200.00mil 15.00mil]
+
+	)
+
+Element["" "CK05_type_Capacitor" "C10" "30p" 2125.00mil 1125.00mil 335.00mil 30.00mil 2 150 ""]
+(
+	Pin[0.0000 0.0000 80.00mil 30.00mil 110.00mil 35.00mil "1" "1" "edge2,thermal(5)"]
+	Pin[200.00mil 0.0000 80.00mil 30.00mil 110.00mil 35.00mil "2" "2" "edge2,thermal(4)"]
+	ElementLine [0.0000 45.00mil 0.0000 50.00mil 10.00mil]
+	ElementLine [0.0000 50.00mil 200.00mil 50.00mil 10.00mil]
+	ElementLine [200.00mil 45.00mil 200.00mil 50.00mil 10.00mil]
+	ElementLine [200.00mil -50.00mil 200.00mil -45.00mil 10.00mil]
+	ElementLine [0.0000 -50.00mil 200.00mil -50.00mil 10.00mil]
+	ElementLine [0.0000 -50.00mil 0.0000 -45.00mil 10.00mil]
+
+	)
+Rat[2150.00mil 1550.00mil 1 2200.00mil 1400.00mil 1  ""]
 Layer(1 "top")
 (
 	Line[950.00mil 850.00mil 1050.00mil 850.00mil 40.00mil 40.00mil "clearline"]
@@ -1287,15 +1314,18 @@ Layer(4 "bottom")
 	Line[1700.00mil 350.00mil 1750.00mil 300.00mil 25.00mil 30.00mil "clearline"]
 	Line[2150.00mil 300.00mil 2150.00mil 450.00mil 25.00mil 30.00mil "clearline"]
 	Line[2150.00mil 600.00mil 2000.00mil 600.00mil 25.00mil 30.00mil "clearline"]
-	Line[2250.00mil 900.00mil 2000.00mil 900.00mil 25.00mil 30.00mil "clearline"]
 	Line[2000.00mil 900.00mil 2000.00mil 1000.00mil 25.00mil 30.00mil "clearline"]
 	Line[2000.00mil 700.00mil 2250.00mil 700.00mil 25.00mil 30.00mil "clearline"]
 	Line[2250.00mil 700.00mil 2350.00mil 600.00mil 25.00mil 30.00mil "clearline"]
 	Line[2000.00mil 1200.00mil 2000.00mil 1450.00mil 25.00mil 30.00mil "clearline"]
 	Line[2000.00mil 1450.00mil 1900.00mil 1550.00mil 25.00mil 30.00mil "clearline"]
-	Line[1900.00mil 1550.00mil 1850.00mil 1550.00mil 25.00mil 30.00mil "clearline"]
-	Line[2250.00mil 1300.00mil 2250.00mil 1550.00mil 25.00mil 30.00mil "clearline"]
+	Line[1900.00mil 1550.00mil 1750.00mil 1550.00mil 25.00mil 30.00mil "clearline"]
 	Line[1450.00mil 900.00mil 1550.00mil 1000.00mil 25.00mil 30.00mil "clearline"]
+	Line[2000.00mil 1000.00mil 2125.00mil 1125.00mil 25.00mil 30.00mil "clearline"]
+	Line[2250.00mil 900.00mil 2250.00mil 1050.00mil 25.00mil 30.00mil "clearline"]
+	Line[2250.00mil 1050.00mil 2325.00mil 1125.00mil 25.00mil 30.00mil "clearline"]
+	Line[2325.00mil 1125.00mil 2325.00mil 1225.00mil 25.00mil 30.00mil "clearline"]
+	Line[2325.00mil 1225.00mil 2300.00mil 1250.00mil 25.00mil 30.00mil "clearline"]
 )
 Layer(5 "outline")
 (
@@ -1321,7 +1351,7 @@ Layer(7 "silk")
 )
 Layer(8 "silk")
 (
-	Text[1700.00mil 1625.00mil 0 109 "Antony 27 Feb 2015" "clearline"]
+	Text[41.8644mm 41.6145mm 0 109 "Antony 27 Feb 2015" "clearline"]
 )
 NetList()
 (
@@ -1348,86 +1378,92 @@ NetList()
 	)
 	Net("unnamed_net3" "(unknown)")
 	(
+		Connect("C10-2")
+		Connect("OUT-1")
+		Connect("R7-1")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
 		Connect("R3-2")
 		Connect("R4-2")
 		Connect("U1-9")
 	)
-	Net("unnamed_net4" "(unknown)")
+	Net("unnamed_net5" "(unknown)")
 	(
 		Connect("R3-1")
 		Connect("U1-13")
 	)
-	Net("unnamed_net5" "(unknown)")
+	Net("unnamed_net6" "(unknown)")
 	(
 		Connect("C2-2")
 		Connect("R4-1")
 	)
-	Net("unnamed_net6" "(unknown)")
+	Net("unnamed_net7" "(unknown)")
 	(
 		Connect("IN-1")
 		Connect("R6-2")
 		Connect("U2-2")
 	)
-	Net("unnamed_net7" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
 		Connect("R5-1")
 		Connect("SYNC-1")
 	)
-	Net("unnamed_net8" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
 		Connect("R5-2")
 		Connect("U1-1")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
 		Connect("R1-2")
 		Connect("U1-11")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("R2-2")
 		Connect("U1-12")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("C5-2")
 		Connect("R8-2")
 		Connect("U2-3")
 	)
-	Net("unnamed_net12" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("C4-1")
 		Connect("U2-8")
 	)
-	Net("unnamed_net13" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("B1-1")
 		Connect("F1-1")
 	)
-	Net("unnamed_net14" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("C4-2")
 		Connect("PULSE-1")
 		Connect("R9-1")
 	)
-	Net("unnamed_net15" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("C6-1")
 		Connect("U3-2")
 	)
-	Net("unnamed_net16" "(unknown)")
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("C6-2")
 		Connect("U3-4")
 	)
-	Net("unnamed_net17" "(unknown)")
+	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("C8-1")
 		Connect("U3-6")
 	)
 	Net("VCO" "(unknown)")
 	(
-		Connect("OUT-1")
+		Connect("C10-1")
 		Connect("U1-3")
 		Connect("U1-4")
 	)
@@ -1456,6 +1492,7 @@ NetList()
 		Connect("R1-1")
 		Connect("R2-1")
 		Connect("R6-1")
+		Connect("R7-2")
 		Connect("R8-3")
 		Connect("R9-2")
 		Connect("SYNC-2")
