@@ -156,10 +156,10 @@ value=100n
 T 52000 43500 5 10 0 1 0 0 1
 footprint=CK05_type_Capacitor
 }
-T 46300 41400 9 16 1 0 0 0 1
+T 45800 41300 9 20 1 0 0 0 1
 Phase-locked 10MHz Trigger
-T 46400 41100 9 12 1 0 0 0 1
-Freq range: 10MHz ~ 15MHz
+T 45800 41000 9 10 1 0 0 0 1
+Gain-bandwidth product: 50GHz; Frequency range: 10MHz ~ 15MHz
 C 45300 42000 1 0 0 output-2.sym
 {
 T 46200 42200 5 10 0 0 0 0 1
