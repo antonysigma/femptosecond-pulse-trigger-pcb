@@ -881,7 +881,7 @@ Element["" "CK05_type_Capacitor" "F1" "900mA" 600.00mil 550.00mil 265.00mil -80.
 
 	)
 
-Element["" "616_3400" "PULSE" "unknown" 1357.00mil 1845.00mil 293.00mil -170.00mil 1 100 ""]
+Element["" "616_3400" "PULSE" "unknown" 1357.00mil 1845.00mil 268.00mil -220.00mil 1 100 ""]
 (
 	Pin[93.00mil -295.00mil 105.00mil 20.00mil 125.00mil 61.00mil "1" "1" ""]
 	Pin[-7.00mil -195.00mil 85.00mil 20.00mil 105.00mil 67.00mil "2" "2" "thermal(0X,1X)"]
@@ -1110,7 +1110,7 @@ Element["" "LED3" "SYNC" "GREEN" 2200.00mil 1300.00mil -100.00mil -180.00mil 0 1
 
 	)
 
-Element["" "CPolar100" "C8" "10u" 1100.00mil 1550.00mil 150.00mil 75.00mil 3 100 ""]
+Element["" "CPolar100" "C8" "10u" 1125.00mil 1550.00mil 150.00mil 75.00mil 3 100 ""]
 (
 	Pin[0.0000 -50.00mil 80.00mil 20.00mil 86.00mil 25.00mil "+" "1" ""]
 	Pin[0.0000 50.00mil 80.00mil 20.00mil 86.00mil 25.00mil "-" "2" ""]
@@ -1216,14 +1216,11 @@ Layer(1 "top")
 	Line[30.5559mm 550.74mil 30.5559mm 897.01mil 25.00mil 30.00mil "clearline"]
 	Line[30.5559mm 897.01mil 1150.00mil 950.00mil 25.00mil 30.00mil "clearline"]
 	Line[1150.00mil 950.00mil 1095.00mil 950.00mil 25.00mil 30.00mil "clearline"]
-	Line[1100.00mil 1500.00mil 1050.00mil 1500.00mil 25.00mil 30.00mil "clearline"]
+	Line[1125.00mil 1500.00mil 1050.00mil 1500.00mil 25.00mil 30.00mil "clearline"]
 	Line[1050.00mil 1500.00mil 1000.00mil 1550.00mil 25.00mil 30.00mil "clearline"]
 	Line[1000.00mil 1550.00mil 900.00mil 1550.00mil 25.00mil 30.00mil "clearline"]
 	Line[1050.00mil 1000.00mil 1050.00mil 1200.00mil 25.00mil 30.00mil "clearline"]
-	Line[1050.00mil 1200.00mil 1200.00mil 1350.00mil 25.00mil 30.00mil "clearline"]
-	Line[1200.00mil 1350.00mil 1200.00mil 1550.00mil 25.00mil 30.00mil "clearline"]
-	Line[1200.00mil 1550.00mil 1150.00mil 1600.00mil 25.00mil 30.00mil "clearline"]
-	Line[900.00mil 1600.00mil 1150.00mil 1600.00mil 25.00mil 30.00mil "clearline"]
+	Line[1225.00mil 1375.00mil 1225.00mil 1550.00mil 25.00mil 30.00mil "clearline"]
 	Line[650.00mil 1300.00mil 600.00mil 1350.00mil 25.00mil 30.00mil "clearline"]
 	Line[600.00mil 1350.00mil 600.00mil 1500.00mil 25.00mil 30.00mil "clearline"]
 	Line[600.00mil 1500.00mil 695.00mil 1500.00mil 25.00mil 30.00mil "clearline"]
@@ -1240,6 +1237,9 @@ Layer(1 "top")
 	Line[2000.00mil 800.00mil 2150.00mil 800.00mil 25.00mil 30.00mil ""]
 	Line[2000.00mil 500.00mil 2100.00mil 500.00mil 25.00mil 30.00mil ""]
 	Line[800.00mil 1400.00mil 850.00mil 1450.00mil 40.00mil 24.00mil "clearline"]
+	Line[1050.00mil 1200.00mil 1225.00mil 1375.00mil 25.00mil 30.00mil "clearline"]
+	Line[900.00mil 1600.00mil 1175.00mil 1600.00mil 25.00mil 30.00mil "clearline"]
+	Line[1175.00mil 1600.00mil 1225.00mil 1550.00mil 25.00mil 30.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[11.9700mm 4.3200mm] [61.9700mm 4.3200mm] [61.9700mm 44.3200mm] [11.9700mm 44.3200mm] 
@@ -1313,9 +1313,15 @@ Layer(6 "spare")
 )
 Layer(7 "silk")
 (
+	Text[500.00mil 1475.00mil 0 132 "Lock range: 10-15MHz" "clearline,onsolder"]
+	Text[500.00mil 1550.00mil 0 132 "Pulse BW: 50GHz" "clearline,onsolder"]
+	Text[850.00mil 1100.00mil 0 178 "Phase" "clearline,onsolder"]
+	Text[1075.00mil 1000.00mil 0 178 "Lock" "clearline,onsolder"]
+	Text[1175.00mil 900.00mil 0 178 "Loop" "clearline,onsolder"]
 )
 Layer(8 "silk")
 (
+	Text[1700.00mil 1625.00mil 0 109 "Antony 27 Feb 2015" "clearline"]
 )
 NetList()
 (
