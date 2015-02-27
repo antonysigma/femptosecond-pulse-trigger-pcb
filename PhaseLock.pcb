@@ -842,7 +842,7 @@ Element["" "CK05_type_Capacitor" "C9" "10n" 950.00mil 650.00mil -130.00mil 85.00
 
 	)
 
-Element["" "R400" "R6" "56R" 900.00mil 1150.00mil -125.00mil -75.00mil 1 100 ""]
+Element["" "R400" "R6" "56R" 900.00mil 1150.00mil -125.00mil 0.0000 1 100 ""]
 (
 	Pin[0.0000 200.00mil 80.00mil 20.00mil 86.00mil 25.00mil "1" "1" "thermal(0X,1X)"]
 	Pin[0.0000 -200.00mil 80.00mil 20.00mil 86.00mil 25.00mil "2" "2" ""]
@@ -1014,7 +1014,7 @@ Element["" "CK05_type_Capacitor" "C2" "4.7n" 2350.00mil 450.00mil -135.00mil -15
 
 	)
 
-Element["" "CK05_type_Capacitor" "C1" "300p" 2150.00mil 600.00mil 140.00mil -130.00mil 0 150 ""]
+Element["" "CK05_type_Capacitor" "C1" "300p" 2150.00mil 600.00mil -85.00mil -130.00mil 0 150 ""]
 (
 	Pin[0.0000 0.0000 80.00mil 30.00mil 110.00mil 35.00mil "1" "1" "edge2,thermal(3)"]
 	Pin[200.00mil 0.0000 80.00mil 30.00mil 110.00mil 35.00mil "2" "2" "edge2,thermal(2)"]
@@ -1208,20 +1208,7 @@ Element["" "SO8" "U3" "LTC1046" 797.50mil 1525.00mil -20.00mil -60.00mil 0 100 "
 
 	)
 
-Element["selected" "R400" "R7" "5k1" 2300.00mil 1450.00mil 25.00mil -25.00mil 3 100 "selected"]
-(
-	Pin[0.0000 -200.00mil 80.00mil 20.00mil 86.00mil 25.00mil "1" "1" "selected"]
-	Pin[0.0000 200.00mil 80.00mil 20.00mil 86.00mil 25.00mil "2" "2" "selected,thermal(0X,1X)"]
-	ElementLine [50.00mil -125.00mil 50.00mil 125.00mil 15.00mil]
-	ElementLine [-50.00mil 125.00mil 50.00mil 125.00mil 15.00mil]
-	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 15.00mil]
-	ElementLine [-50.00mil -125.00mil 50.00mil -125.00mil 15.00mil]
-	ElementLine [0.0000 -200.00mil 0.0000 -125.00mil 15.00mil]
-	ElementLine [0.0000 125.00mil 0.0000 200.00mil 15.00mil]
-
-	)
-
-Element["" "CK05_type_Capacitor" "C10" "30p" 2125.00mil 1125.00mil 335.00mil 30.00mil 2 150 ""]
+Element["" "CK05_type_Capacitor" "C10" "30p" 2125.00mil 1125.00mil 135.00mil 130.00mil 2 150 ""]
 (
 	Pin[0.0000 0.0000 80.00mil 30.00mil 110.00mil 35.00mil "1" "1" "edge2,thermal(5)"]
 	Pin[200.00mil 0.0000 80.00mil 30.00mil 110.00mil 35.00mil "2" "2" "edge2,thermal(4)"]
@@ -1231,6 +1218,19 @@ Element["" "CK05_type_Capacitor" "C10" "30p" 2125.00mil 1125.00mil 335.00mil 30.
 	ElementLine [200.00mil -50.00mil 200.00mil -45.00mil 10.00mil]
 	ElementLine [0.0000 -50.00mil 200.00mil -50.00mil 10.00mil]
 	ElementLine [0.0000 -50.00mil 0.0000 -45.00mil 10.00mil]
+
+	)
+
+Element["" "R400" "R7" "5k1" 2300.00mil 1450.00mil 125.00mil 0.0000 3 100 ""]
+(
+	Pin[0.0000 -200.00mil 80.00mil 20.00mil 86.00mil 25.00mil "1" "1" ""]
+	Pin[0.0000 200.00mil 80.00mil 20.00mil 86.00mil 25.00mil "2" "2" "thermal(0X,1X)"]
+	ElementLine [50.00mil -125.00mil 50.00mil 125.00mil 15.00mil]
+	ElementLine [-50.00mil 125.00mil 50.00mil 125.00mil 15.00mil]
+	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 15.00mil]
+	ElementLine [-50.00mil -125.00mil 50.00mil -125.00mil 15.00mil]
+	ElementLine [0.0000 -200.00mil 0.0000 -125.00mil 15.00mil]
+	ElementLine [0.0000 125.00mil 0.0000 200.00mil 15.00mil]
 
 	)
 Rat[2150.00mil 1550.00mil 1 2200.00mil 1400.00mil 1  ""]
