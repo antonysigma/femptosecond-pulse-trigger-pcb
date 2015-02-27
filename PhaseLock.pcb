@@ -794,7 +794,7 @@ Element["" "BOURNS_3296W" "R8" "2k" 1200.00mil 550.00mil 137.99mil -4.9596mm 0 1
 (
 	Pin[-97.01mil 0.74mil 80.00mil 20.00mil 90.00mil 40.00mil "1" "1" "square,edge2"]
 	Pin[2.99mil 0.74mil 80.00mil 20.00mil 90.00mil 40.00mil "2" "2" "edge2"]
-	Pin[102.99mil 0.74mil 80.00mil 20.00mil 90.00mil 40.00mil "3" "3" "edge2,thermal(1X)"]
+	Pin[102.99mil 0.74mil 80.00mil 20.00mil 90.00mil 40.00mil "3" "3" "edge2,thermal(0X,1X)"]
 	ElementLine [205.49mil -94.26mil -199.51mil -94.26mil 10.00mil]
 	ElementLine [-199.51mil -94.26mil -199.51mil 90.74mil 10.00mil]
 	ElementLine [205.49mil -94.26mil 205.49mil 90.74mil 10.00mil]
