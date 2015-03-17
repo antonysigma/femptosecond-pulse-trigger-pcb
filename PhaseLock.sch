@@ -39,7 +39,7 @@ refdes=R3
 T 46100 45700 5 10 0 1 0 0 1
 footprint=R400
 T 46100 45700 5 10 0 1 0 0 1
-value=2k2
+value=5K1
 }
 C 47100 44900 1 90 0 resistor-1.sym
 {
@@ -50,7 +50,7 @@ refdes=R4
 T 47100 44900 5 10 0 1 0 0 1
 footprint=R400
 T 47100 44900 5 10 0 1 0 0 1
-value=270R
+value=300R
 }
 C 47200 44000 1 90 0 capacitor-1.sym
 {
@@ -210,7 +210,7 @@ refdes=R2
 T 50800 44400 5 10 0 1 0 0 1
 footprint=R400
 T 50800 44400 5 10 0 1 0 0 1
-value=3k
+value=5K1
 }
 C 51300 44400 1 90 0 resistor-1.sym
 {
@@ -221,7 +221,7 @@ refdes=R1
 T 51300 44400 5 10 0 1 0 0 1
 footprint=R400
 T 51300 44400 5 10 0 1 0 0 1
-value=1.8k
+value=3K
 }
 C 44000 42300 1 0 0 comparator_LT1016.sym
 {
@@ -454,3 +454,5 @@ value=5k1
 }
 N 51500 45400 51500 45900 4
 N 52000 45900 51500 45900 4
+C 44400 44000 1 0 0 gnd-1.sym
+N 44500 44900 44500 44300 4
