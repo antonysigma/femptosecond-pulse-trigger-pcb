@@ -116,7 +116,7 @@ refdes=C7
 T 44400 46000 5 10 0 1 90 0 1
 footprint=CPolar100
 T 44400 46000 5 10 0 1 0 0 1
-value=10u
+value=22u
 }
 C 45400 45500 1 0 1 gnd-1.sym
 C 46100 46700 1 0 0 input-2.sym
