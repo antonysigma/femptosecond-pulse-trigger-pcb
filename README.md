@@ -61,6 +61,8 @@ I picked the `LT1016` IC that accepts an ultrashort pulse, over-driven at 12V at
 
 If I were to re-design the analog comparator again, I would have picked the AD8611 instead. Or, cascade two comparators in the AD8612 IC to increase the (non-compensated) total gain.
 
+![](comparator-output.png)
+
 **Phase-locked loop circuit**
 To convert the 50ns pulse train to a clock signal at 50% duty cycle, I implemented the PLL circuit with 74HC4046. The analog feedback circuit is favored over digital implementation because of the high clock frequency (10~15 MHz).
 
@@ -68,6 +70,7 @@ It is worth to note that the so-called "phase locking" in the MHz range works fu
 
 In contrast, the mode-locked laser adjust its ultrafast pulse width by favoring the open-loop gain of the laser pulse at the peak power; it is the opto-electro-magnetic phase that is locked.
 
+![](pll-output.png)
 
 **Hardwiring the PLL phase error feedback PID gain**
 Open loop gain $K_p(s) K_f(s) k_o(s)$
