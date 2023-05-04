@@ -51,6 +51,11 @@ requirement, refer to the introductory article of the ANDi laser
 [All-normal-dispersion femtosecond fiber
 laser](https://doi.org/10.1364/OE.14.010095) details.
 
+![](oscilloscope-trace.png)
+
+**(Non-negotiable) external pulse sensor circuit**
+![](photo-diode-circuit.png)
+
 **Ultrafast analog comparator**
 I picked the `LT1016` IC that accepts an ultrashort pulse, over-driven at 12V at the pulse peak. The LT1016 has a 50 nanosecond bandwidth, so I utilized the circuit to "slow down" the slew-rate of the laser-trigger pulse. The slew-rate matters because at the time, ECL triggered PLL ASICs were too cost prohibitive. I can only use a 74HC PLL ASIC.
 
